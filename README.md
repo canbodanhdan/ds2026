@@ -9,6 +9,6 @@ Students are expected to:
 Student Info
 =========================
 
-* Student Name: USTH ICT1
-* Student ID: Not-Vietnamese
+* Student Name: Dam Tuan Hung
+* Student ID: 22BA13150
 * Student Group ID: Not-for-now
