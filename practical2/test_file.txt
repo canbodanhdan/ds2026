@@ -1,0 +1,11 @@
+Hello from TCP File Transfer!
+This is a test file for Practical Work 1.
+
+Đây là file test để kiểm tra chương trình truyền file qua TCP/IP.
+Chương trình sử dụng socket để tạo kết nối giữa client và server.
+
+Line 1: Testing file transfer
+Line 2: Using TCP/IP protocol
+Line 3: Socket programming in Python
+Line 4: Distributed Systems 2026
+Line 5: USTH Master Program

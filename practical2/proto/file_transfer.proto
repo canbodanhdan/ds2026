@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package filetransfer;
+
+// Message để gửi từng chunk của file
+message FileChunk {
+    string filename = 1;      // Tên file
+    bytes content = 2;        // Nội dung chunk (dữ liệu binary)
+    bool is_last = 3;         // Đánh dấu chunk cuối cùng
+}
+
+// Response sau khi upload file
+message UploadResponse {
+    bool success = 1;         // Thành công hay không
+    string message = 2;       // Thông báo
+}
+
+// Service định nghĩa RPC methods
+service FileTransferService {
+    // RPC method để upload file (client streaming)
+    rpc UploadFile(stream FileChunk) returns (UploadResponse);
+}
