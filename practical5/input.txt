@@ -1,0 +1,12 @@
+/home/user/documents/file1.txt
+/var/log/system/errors/     critical/error.log
+
+
+   
+/usr/local/bin/python3
+/home/user/projects/python/mapreduce/longest_path.py
+/var/log/system/home/user/documents/file1.txt
+/errors/critical/error.log
+/usr/local/bin
+/home/user/projects/python
+/usr/local/bin/errors/critical/error.log
